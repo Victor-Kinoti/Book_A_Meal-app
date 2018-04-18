@@ -1,0 +1,47 @@
+.wrapper{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, 300%);
+    font-family:fantasy;
+    color: rgb(5, 5, 5);
+    
+}
+
+
+body{
+
+    background-image: url(../img/bknd.jpg);
+    height: 100vh;
+    
+}
+
+.wrapper_row{
+    max-width: 1140px;
+    margin:0 auto;
+
+}
+.main_menu{
+    float: left;
+    list-style: none;
+}
+
+.form_menu{
+    float: right;
+    list-style: none;
+}
+
+
+.main_menu li, .form_menu li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.main_menu li a, .form_menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.main_menu li a:hover, .form_menu li a:hover{
+    color: orangered;
+}
