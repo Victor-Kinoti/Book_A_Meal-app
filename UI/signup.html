@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Sign up</title>
-        <link rel = "stylesheet" href = "sytles/style.css">
+        <link rel = "stylesheet" href = "styles/style.css">
     </head>
     <body>
     <div class="container">
@@ -10,20 +10,25 @@
             <h2>Create A New Account </h2
                 <form>
                     <p>Username</p>
-                    <input type = "text" name = "your_name" placeholder = " Your Name">
+                    <input type = "text" name = "your_name" placeholder = "Name">
                     <p>Email</p>
-                    <input type = "email" name = "your_email" placeholder = " Your Email Address">
+                    <input type = "email" name = "your_email" placeholder = "Email Address">
                     <p>Password</p>
-                    <input type = "password" name = "your_password" placeholder = " Choose A your_password">
+                    <input type = "password" name = "your_password" placeholder = "password">
                     <p>Confirm Password</p>
-                    <input type = "password" name = "confirm_password" placeholder = " Confirm Password">
+                    <input type = "password" name = "confirm_password" placeholder = "Confirm Password">
                     <input type="submit" value="Sign Up"><br><br>
-                    <a href="#">Forgot Password</a>
+                    <a href="#" onclick="redirector()">Already Registered</a>
+                   
                 
                 </form>
         </div>
     </div>
-
-
+    <script>
+        function redirector(){
+            window.location="signin.html"
+        }
+    
+    </script>
     </body>
 </html>
