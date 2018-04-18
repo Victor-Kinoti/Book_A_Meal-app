@@ -3,10 +3,13 @@
 <html>
     <head>
         <title>Breaking Bad</title>
-        <link href="styles/style.css" rel="stylesheet" type = "text/css">
+        <link href="styles/index_styling.css" rel="stylesheet" type = "text/css">
     </head>
     <body>
         <header>
+
+                
+
             <div class="wrapper_row">
                 <ul class="main_menu">
                     <li><a href="">Menu</a></li>
@@ -15,15 +18,26 @@
                     <li><a href="">Recipes</a></li>
                     <li><a href="">About</a></li>
                 </ul>
+
+                <ul class="form_menu">
+                    <li><a href="#" onclick="redirector()">Login</a></li>
+                    <li><a href="#" onclick="redirector2()">SignUp</a></li>
+                </ul>
                 
             </div>
-
-
-
 
             <div class="wrapper">
                 <h1>Where taste meets the myth</h1>
             </div>
         </header>
+        <script>
+                function redirector(){
+                    window.location="signin.html"
+                }
+                function redirector2(){
+                    window.location="signup.html"
+                }
+            
+        </script>
     </body>
 </html>
