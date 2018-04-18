@@ -1,3 +1,4 @@
+/******Signup/ Signin styling*****/
 body{
     /*background: url(bacgnd_img.jpg);*/ 
     background: #333b49;
@@ -70,4 +71,48 @@ body{
     font-weight: bold;
     
 
+}
+
+/******index styling*****/
+
+.wrapper{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, 300%);
+    font-family:fantasy;
+    color: #fff;
+    
+}
+
+
+header{
+
+    background-image: url(../img/bknd.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size:cover; 
+}
+
+.wrapper_row{
+    max-width: 1140px;
+    margin:0 auto;
+
+}
+.main_menu{
+    float: left;
+    list-style: none;
+}
+.main_menu li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.main_menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.main_menu li a:hover{
+    color: orangered;
 }
